@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+<HEAD>
+<TITLE>Formulario</TITLE>
+<LINK rel="stylesheet" href="Formulario.html">
+<LINK rel="stylesheet" href="Tipos de SI.html">
+</HEAD>
+<BODY>
+
+ <label for="fecha">Fecha de Auditoria:</label>
+  <input type="date" id="fecha"><br>
+
+<!-- Menú de navegación del sitio -->
+<nav class="navbar navbar-default" style="background-color: #F9C867;" role="navigation">
+<right><h2><font style="color:BLACK">
+
+<li><a "Fomulario.html">Formulario</a></li>
+<li><a href="tiposdesi.html">Tipos de SI</a></li>
+<li><a href="especificaciones.html">Especificaciones</a></li>
+<li><a href="http://www.google.com">Google</a></li>
+</ul>
+
+<div class="frmTitle">
+<center><H1 class="frm"> Information Systems Audit </H1></center>
+</div>
+<HR>
+
+<label for="terms">Acepto los términos y condiciones
+<select id="Acepto">
+            <!--Etiqueta option-->
+            <option value="value1">Si</option> 
+            <option value="value2" selected>No </option></select>
+</label>
+
+
+<br><br>
+
+<h3>Registro de auditoría</h3>
+<form>
+<input name="cp" type="text" placeholder="NIT" pattern="[0-9]{5}" required>	
+<input name="#" type="text" pattern="[0-9]{2}"  placeholder="#" required>
+<button id="enviar" name="enviar" type="submit">ENVIAR</button>
+</form>
+
+<br></br>
+
+ <label for="Tipo de Auditoría">Auditoría
+        <select id="Auditoría">
+            <!--Etiqueta option-->
+            <option value="value1">Externa</option> 
+            <option value="value2" selected>Interna</option>
+        </select></label>
+
+<br></br>
+<br></br>
+
+<form>
+
+<fieldset>
+<legend> Company Information System Recognition Survey</legend>
+<p><label>Company Name: <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>NIT: <input class="info"></label></p>
+<p><label>Telephone: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;
+<label>E-mail address: <input class="info" type=email></label></p>
+<label> Company Address: <input class="info" Company Address></label></p>
+
+</fieldset>
+
+<H3 class="frm"> Mark with a ✓ if the company meets the list of standards to be evaluated on the form, otherwise mark with an X. Multiple answers </H3>
+
+
+<fieldset>
+<center><legend> System Name </legend></center>
+<p><label> <input type=radio name=size> (TPS) Sistemas de procesamiento de transacciones </label></p>
+<p><label> <input type=radio name=size> (BPM) Sistemas de control de procesos de negocios</label></p>
+<p><label> <input type=radio name=size> (ERP) Sistemas de planificación de recursos empresariales </label></p>
+<p><label> <input type=radio name=size> (MIS) Sistemas de información de gestión </label></p>
+<p><label> <input type=radio name=size> (DSS) Sistemas para el soporte de decisiones </label></p>
+<p><label> <input type=radio name=size> (EIS) Sistemas de información ejecutiva </label></p>
+<p><label> <input type=radio name=size> (SAO) Sistemas de planificación operativa </label></p>
+<p><label> <input type=radio name=size> (STC) Sistemas de trabajo del conocimiento </label></p>
+</fieldset>
+
+<fieldset>
+<center><legend>Operation Level</legend></center>
+<p><label> <input type=checkbox> Nivel operacional de la organización </label></p>
+<p><label> <input type=checkbox> Producción de la organización </label></p>
+<p><label> <input type=checkbox> Nivel directivo o de dirección </label></p>
+<p><label> <input type=checkbox> Nivel de procesamiento de la información </label></p>
+<p><label> <input type=checkbox> Nivel de toma de decisiones, en concordancia con la gerencia </label></p>
+<p><label> <input type=checkbox> Nivel de accesibilidad a la información operacional </label></p>
+</fieldset>
+
+<fieldset>
+<center><legend> Elements/components of the companys information system </legend></center>
+<p><label> Recursos humanos (Personas) </label></p>
+<p><label> <input type=checkbox> El personal de sistemas incluye a gerentes de desarrollo, anaistas de sistemas, programadores y operadores,con habilidades especializadas.</label></p>
+<p><label> <input type=checkbox> Los sistemas de información o la informacion generada, finalmente son usados por los usuarios.</label></p>
+<p><label> Procedimientos o actividades </label></p>
+<p><label> <input type=checkbox> La empresa cumple con politicas y metodos que deben acatarse para operar y mantener un sistema de informacion, para procesar los datos y producir así la informacion deseada.</label></p>
+<p><label> <input type=checkbox> Los procedimientos y/o actividades y la informacion estan recopilados en manuales y documentos similares. </label></p>
+<p><label> Hadware </label></p>
+<p><label> <input type=checkbox> El hadware de la empresa esta compuesto por multipes sistemas informaticos, como microcomputadoras, minicomputadoras y mainframen, junto con sus dispositivos perifericos.</label></p>
+<p><label> <input type=checkbox> Los dispositivos perifericos son monitores, impresoras y teclados, los cuales trabajan en conjunto para recibir datos, procesarlos y mostrar información.
+<p><label> Software de Sistema/Aplicacion
+<p><label> <input type=checkbox> La empresa cuenta con programas de capacitacion que permiten que el hadware procese los datos para convertirlos en información. </label></p>
+<p><label> <input type=checkbox> La empresa cueta con un software del sistema, el cual gestiona los recursos del sistema informatico. </label></p>
+<p><label> <input type=checkbox> El software del sistema proporciona una interfaz por medio de la cual el usuario puede implementar estos recursos.</label></p>
+<p><label> <input type=checkbox> La empresa cuenta con un software de aplicación, los cuales son programas que ayudan directamente a los usuarios a realizar su trabajo. Se pueden comprar como paquetes listos para usar.</label></p>
+</fieldset>
+
+
+
+<p><label> Audit Observations <textarea></textarea></label></p>
+
+<br>
+  <label for="archivo">Selecciona un archivo:</label>
+  <input type="file" id="archivo">   <br>
+  <label for="archivo"></label>
+
+<br></br>
+
+<center><div class="center"><button class="button button1" onClick="alert('Your order was shipped/Su orden fue enviada');">Submit Remark/Enviar observación</button></div></center>
+</form>
+
+
+
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
